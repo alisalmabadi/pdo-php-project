@@ -1,0 +1,33 @@
+<?php
+
+
+
+$sa_captcha=$sa_captchaDIR.'/sa-captcha.inc.php';
+?>
+<script type="text/javascript">
+function recaptcha(){
+var rnd=Math.floor((Math.random()*1000)+1); 
+document.getElementById("imgcaptcha").src='<?php echo $sa_captcha ?>?' + rnd;
+}
+</script>
+<style type="text/css">
+.captcha {
+padding: 5px;
+display: inline-block;
+background: #FCFAFA;
+box-shadow: 0 0 5px #E6E4E4;
+border-radius: 2px;
+border: 1px solid #DDD;
+}
+.captcha img {
+vertical-align: middle;
+}
+#refresh{cursor: pointer}
+</style>
+
+
+<span class="captcha">
+<img id="imgcaptcha" src="<?php echo $sa_captcha ?>"/>
+                    <a onclick="recaptcha();" id="refresh" ><img src="<?php echo $sa_captchaDIR?>/img/re.png"  /></a>
+</span>
+

@@ -1,0 +1,29 @@
+/Caching schema
+<FilesMatch "\.(jpg|png|js|css)$">
+Header set Cache-Control "public, max-age=86400000"
+</FilesMatch>
+
+//Custom 400 errors
+ErrorDocument 400 /400.html
+
+//Custom 401 errors
+ErrorDocument 401 /401.html
+
+//Custom 403 errors
+ErrorDocument 403 /403.html
+
+//Custom 404 errors
+ErrorDocument 404 /404.html
+
+//Custom 500 errors
+ErrorDocument 500 /500.html
+
+//Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+//Prevent directory listings
+Options All -Indexes
+ 
