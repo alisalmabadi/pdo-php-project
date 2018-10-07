@@ -1,7 +1,8 @@
 <?php include "core/onload.php";?>
 <?php
 
-$cap=$usernameerr=$passworderr=$captchaerr=$notfount="";
+
+$salam=$cap=$usernameerr=$passworderr=$captchaerr=$notfount="";
 
 if(isset($_POST["login"])){
     if($_POST["username"]!="" && $_POST["password"]!="" && $_POST["captcha"]!=""){
