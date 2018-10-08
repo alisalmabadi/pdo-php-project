@@ -49,7 +49,7 @@ Finished! thats it!
 
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-* [ROME](https://github.com/twbs/bootstrap) - Bootstrap Used for UI
+* [Bootstrap](https://github.com/twbs/bootstrap) - Bootstrap Used for UI
 
 ## Contributing
 
