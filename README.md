@@ -36,7 +36,7 @@ A step by step series of examples that tell you how to get a development env run
 ```
 
 ```
-2- First past the project in your www wamp folder or htdocs of xamp
+2- First clone the project in your www wamp folder or htdocs of xamp
 ```
 
 ```

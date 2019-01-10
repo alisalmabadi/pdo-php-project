@@ -27,8 +27,8 @@ $tbl_uni="tbl_list_uni";
 
 
 	$server_name="localhost";
-		$username="anjoman2_sad5s5d";
-		$password="%cz1GW&Qroia5sd";
+		$username="root";
+		$password="";
 		$dbname="anjoman2_portalanjoman";
 		$dsn="mysql:host=$server_name;dbname=$dbname";
 	try{
